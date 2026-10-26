@@ -1,0 +1,25 @@
+DATA STRUCTURES — SAMPLE STUDY MATERIAL
+
+TOPIC: Arrays
+An array stores elements of the same data type in contiguous memory locations. Elements are accessed using an index, usually in constant time O(1). Inserting an element in the middle may require shifting later elements, so it can take O(n) time. Arrays are useful when indexed access is frequent.
+
+TOPIC: Linked Lists
+A linked list stores data in nodes. Each node contains data and a reference to the next node; a doubly linked list also stores a previous reference. Insertion after a known node can take O(1) time, but searching for a value takes O(n) because nodes are visited sequentially. Linked lists do not require contiguous memory.
+
+TOPIC: Stacks
+A stack follows Last In, First Out (LIFO). The push operation adds an item to the top, and pop removes the top item. A stack is used in function calls, undo operations, and expression evaluation. Push and pop are O(1) for a typical array-backed or linked-list stack.
+
+TOPIC: Queues
+A queue follows First In, First Out (FIFO). Enqueue adds an item at the rear and dequeue removes an item from the front. Queues are used in scheduling, buffering, and breadth-first search. A circular queue reuses freed array positions to avoid wasting space.
+
+TOPIC: Trees
+A tree is a hierarchical data structure with nodes connected by edges. A binary tree has at most two children per node. In a binary search tree, values smaller than a node are stored in its left subtree and larger values in its right subtree. Search is O(log n) on a balanced BST but can degrade to O(n) when the tree is skewed.
+
+TOPIC: Graphs
+A graph consists of vertices and edges. Graphs can be directed or undirected, weighted or unweighted. Breadth-first search (BFS) explores vertices level by level using a queue. Depth-first search (DFS) explores as far as possible along a path before backtracking, commonly using recursion or a stack. Adjacency lists are space-efficient for sparse graphs.
+
+TOPIC: Sorting
+Bubble sort repeatedly swaps adjacent out-of-order elements and has O(n^2) average and worst-case time. Merge sort divides the input into halves, sorts each half, and merges them; its time complexity is O(n log n), with extra memory for merging. Quicksort partitions around a pivot and has O(n log n) average time, but O(n^2) worst case with poor pivots.
+
+TOPIC: Searching
+Linear search checks each element and takes O(n) time in the worst case. Binary search repeatedly halves the search interval and takes O(log n) time, but requires sorted data. Binary search compares the target with the middle element and discards the half that cannot contain the target.

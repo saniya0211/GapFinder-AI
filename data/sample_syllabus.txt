@@ -1,0 +1,11 @@
+DATA STRUCTURES SYLLABUS
+TOPIC: Arrays
+TOPIC: Linked Lists
+TOPIC: Stacks
+TOPIC: Queues
+TOPIC: Trees
+TOPIC: Graphs
+TOPIC: Sorting
+TOPIC: Searching
+
+Use sample_material.txt for detailed topic notes and quiz source content.
